@@ -545,6 +545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046394910}
   - component: {fileID: 2046394911}
+  - component: {fileID: 2046394912}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -581,6 +582,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bf9df900524d94d8acfa016bccece2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+--- !u!114 &2046394912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046394909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a70d0de013dc1b498a4b7ea8d3f85e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShooting
+  bulletPrefabs: {fileID: 7889230822426564800, guid: 34b613cce69d5ac468421adaa405d2e7,
+    type: 3}
+  shootingInterval: 0.01
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

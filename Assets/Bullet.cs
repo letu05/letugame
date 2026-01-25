@@ -9,6 +9,6 @@ public class Bullet : MonoBehaviour
     {
         var newPosition = transform.position;
         newPosition.y += Time.deltaTime * flySpeed;
-        transform.position = newPosition;
+       transform.position = newPosition;
     }
 }
